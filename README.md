@@ -10,7 +10,7 @@
 | 内存         | 英睿达DDR4 3200 8Gx2                  |
 | 网卡         | ax201                                 |
 | 硬盘         | 三星980 1T                            |
-| OC版本       | 0.8.3                                 |
+| OC版本       | 0.8.5                                |
 | macOS        | macOS Monterey 12.5.1                 |
 | 机型         | MacPro7.1                             |
 | 主板BIOS版本 | CVN B660I GAMING FROZEN V20 BIOS 1004 |
