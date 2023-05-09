@@ -10,25 +10,28 @@
 | 内存         | 英睿达DDR4 3200 8Gx2                  |
 | 网卡         | ax201                                 |
 | 硬盘         | 三星980 1T                            |
-| OC版本       | 0.8.5                                |
-| macOS        | macOS Monterey 12.5.1                 |
-| 机型         | MacPro7.1                             |
-| 主板BIOS版本 | CVN B660I GAMING FROZEN V20 BIOS 1004 |
+| OC版本       | 0.9.1                             |
+| macOS        | macOS Ventura           |
+| 机型         | iMac20.2              |
+| 主板BIOS版本 | CVN B660I GAMING FROZEN V20 BIOS 1006 |
 
 > BIOS设置
 >
 > 1. 关闭CSM（启动模式仅UEFI）
-> 2. 关闭快速开机 Fast Boot
-> 3. 关闭Intel VT-D
-> 4. 新版本bios 报ACPI错误（暂未修复）
+> 2. 关闭re-size bar（⚠️如果没有关闭卡acpi warnging: unsupported module-level）
+> 3. 默认开启DisableoMapper所以无需关闭vt-d
 
-> **注意**：本版本只适配了macOS Monterey，如果使用其他的版本，将会出现无法使用无线，蓝牙等的情况，同时主板bios版本低于1005
+> **注意**：本版本只适配了macOS Ventura，如果使用其他的版本，将会出现无法使用无线，蓝牙等的情况，同时主板bios版本低于1005
+>
+> ⚠️蓝牙和WIFI虽然可以使用，但依旧存在BUG，建议使用有线连接
 
-![截屏2022-08-28 09.13.31](README.assets/%E6%88%AA%E5%B1%8F2022-08-28-09.13.png)
+***⚠️注意：本EFI使用不保证成功，使用存在一定风险，一切后果自负，默认下载即同意该协议***
 
-![截屏2022-08-28 09.13.31](README.assets/%E6%88%AA%E5%B1%8F2022-08-28-09.17.png)
+![image-20230509150016598](./README.assets/image-20230509150016598.png)
 
-![截屏2022-08-28 09.24.39](README.assets/%E6%88%AA%E5%B1%8F2022-08-28-09.24.png)
+![image-20230509150044563](./README.assets/image-20230509150044563.png)
+
+![image-20230509150411959](./README.assets/image-20230509150411959.png)
 
 配置参考教程
 
