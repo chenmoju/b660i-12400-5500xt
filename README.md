@@ -21,7 +21,7 @@
 > 2. 关闭re-size bar（⚠️如果没有关闭卡acpi warnging: unsupported module-level）
 > 3. 默认开启DisableoMapper所以无需关闭vt-d
 
-> **注意**：本版本只适配了macOS Ventura，如果使用其他的版本，将会出现无法使用无线，蓝牙等的情况，同时主板bios版本低于1005
+> **注意**：本版本只适配了macOS Ventura，如果使用其他的版本，将会出现无法使用无线，蓝牙等的情况
 >
 > ⚠️蓝牙和WIFI虽然可以使用，但依旧存在BUG，建议使用有线连接
 
